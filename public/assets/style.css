@@ -1,0 +1,34 @@
+:root{--navy:#1a2642;--teal:#0f766e;--gris:#475569;--borde:#d9dee7;--fondo:#f4f6fa;--rojo:#b42318;--ambar:#b45309;--verde:#15803d}
+*{box-sizing:border-box}
+body{margin:0;font-family:Calibri,"Segoe UI",Arial,sans-serif;background:var(--fondo);color:#1f2937}
+.barra{background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:12px 24px}
+.marca{font-weight:700;font-size:20px;letter-spacing:1px}.marca span{color:#5eead4}
+.barra a{color:#fff;text-decoration:none}
+.contenedor{max-width:980px;margin:24px auto;padding:0 16px}
+h1{color:var(--navy);margin:0 0 16px}h2{color:var(--navy)}
+.encabezado{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.btn{display:inline-block;padding:8px 14px;border:1px solid var(--borde);border-radius:6px;background:#fff;color:var(--navy);text-decoration:none;cursor:pointer;font-size:14px}
+.btn-primario{background:var(--teal);border-color:var(--teal);color:#fff}
+.filtros{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+input,select{padding:8px;border:1px solid var(--borde);border-radius:6px;font-size:14px;width:100%}
+.filtros input,.filtros select{width:auto}
+.tabla{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--borde)}
+.tabla th{background:var(--navy);color:#fff;text-align:left;padding:10px;font-size:13px}
+.tabla td{padding:9px 10px;border-top:1px solid var(--borde);font-size:14px}
+.vacio{text-align:center;color:var(--gris)}
+.celda-acciones a{margin-right:8px;color:var(--teal)}
+.en-linea{display:inline}.enlace-peligro{background:none;border:0;color:var(--rojo);cursor:pointer;font-size:14px;padding:0}
+.nivel{display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:700;color:#fff}
+.nivel-alto{background:var(--rojo)}.nivel-medio{background:var(--ambar)}.nivel-bajo{background:#ca8a04}.nivel-sin-alerta{background:var(--verde)}
+.formulario{background:#fff;border:1px solid var(--borde);border-radius:8px;padding:20px;max-width:620px}
+.formulario label{display:block;margin-bottom:14px;font-weight:600;font-size:14px}
+.formulario input,.formulario select{margin-top:4px;font-weight:400}
+.fila{display:flex;gap:12px}.fila label{flex:1}
+.error{display:block;color:var(--rojo);font-weight:400;margin-top:3px}
+.acciones{margin-top:16px;display:flex;gap:8px}
+.aviso{padding:10px 14px;border-radius:6px;margin-bottom:14px}
+.aviso-ok{background:#dcfce7;color:#166534}.aviso-error{background:#fee2e2;color:#991b1b}
+.detalle{display:grid;grid-template-columns:200px 1fr;background:#fff;border:1px solid var(--borde);padding:14px;gap:6px 12px}
+.detalle dt{font-weight:600;color:var(--gris)}.detalle dd{margin:0}
+.nota{color:var(--gris);font-size:13px}
+.pie{text-align:center;color:var(--gris);font-size:12px;padding:20px}

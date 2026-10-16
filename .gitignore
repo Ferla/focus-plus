@@ -1,0 +1,7 @@
+# Credenciales locales: NO subir a GitHub
+config/config.php
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
